@@ -34,9 +34,11 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: SingleChildScrollView(
-        child: Padding(
+        child: Container(
+          width: double.infinity,
           padding: const EdgeInsets.all(12.0),
-          child: Column(children: [
+          child:
+              Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
             Divider(),
             Text(
               'Introduction',
@@ -95,6 +97,271 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
             ),
             Divider(),
+            Text(
+              '\'A\' article භාවිතා කරන්නේ ,',
+              style: TextStyle(
+                fontSize: 18,
+                color: Colors.black,
+              ),
+            ),
+            Text(
+              '',
+            ),
+            Text(
+              '(1) vowel  නොවන (consonant) අකුරකින් ඇරබෙන වචනයකට කලින්',
+              style: TextStyle(
+                fontSize: 18,
+                color: Colors.black,
+              ),
+            ),
+            Text(
+              'Example: ',
+              style: TextStyle(
+                fontSize: 18,
+                color: Colors.black,
+              ),
+            ),
+            Text(
+              '  A bag',
+              style: TextStyle(
+                fontSize: 18,
+                color: Colors.blue,
+              ),
+            ),
+            Text(
+              '  A tiger',
+              style: TextStyle(
+                fontSize: 18,
+                color: Colors.blue,
+              ),
+            ),
+            Text(
+              '  A teacher ',
+              style: TextStyle(
+                fontSize: 18,
+                color: Colors.blue,
+              ),
+            ),
+            Text(
+              '',
+            ),
+            Text(
+              '(2) Countable noun (ගැනිය හැකි ) singular (ඒක වචන ) නාම පදයකට කලින්,',
+              style: TextStyle(
+                fontSize: 18,
+                color: Colors.black,
+              ),
+            ),
+            Text(
+              'Example: ',
+              style: TextStyle(
+                fontSize: 18,
+                color: Colors.black,
+              ),
+            ),
+            Text(
+              '  A mango ',
+              style: TextStyle(
+                fontSize: 18,
+                color: Colors.blue,
+              ),
+            ),
+            Text(
+              '  A banana ',
+              style: TextStyle(
+                fontSize: 18,
+                color: Colors.blue,
+              ),
+            ),
+            Text(
+              '  A vegetable ',
+              style: TextStyle(
+                fontSize: 18,
+                color: Colors.blue,
+              ),
+            ),
+            Text(
+              '',
+            ),
+            Text(
+              '(3) අපි යම් දෙයක් ගැන පළමු වතාවට කථා කරන විට,',
+              style: TextStyle(
+                fontSize: 18,
+                color: Colors.black,
+              ),
+            ),
+            Text(
+              'Example: ',
+              style: TextStyle(
+                fontSize: 18,
+                color: Colors.black,
+              ),
+            ),
+            Text(
+              '  I saw a lion.  ',
+              style: TextStyle(
+                fontSize: 18,
+                color: Colors.blue,
+              ),
+            ),
+            Text(
+              '',
+            ),
+            Text(
+              '(4) පළමු අකුර vowel  වූවද ශබ්දය vowel නොවන විට,',
+              style: TextStyle(
+                fontSize: 18,
+                color: Colors.black,
+              ),
+            ),
+            Text(
+              'Example: ',
+              style: TextStyle(
+                fontSize: 18,
+                color: Colors.black,
+              ),
+            ),
+            Text(
+              '  A university ',
+              style: TextStyle(
+                fontSize: 18,
+                color: Colors.blue,
+              ),
+            ),
+            Text(
+              '  A uniform  ',
+              style: TextStyle(
+                fontSize: 18,
+                color: Colors.blue,
+              ),
+            ),
+            Text(
+              '  A european',
+              style: TextStyle(
+                fontSize: 18,
+                color: Colors.blue,
+              ),
+            ),
+            Text(
+              '',
+            ),
+            Text(
+              '\'An\' article භාවිතා කරන්නේ ,',
+              style: TextStyle(
+                fontSize: 18,
+                color: Colors.black,
+              ),
+            ),
+            Text(
+              '',
+            ),
+            Text(
+              '(1) Vowel ශබ්දයකින් ආරම්භ වන noun සමග,',
+              style: TextStyle(
+                fontSize: 18,
+                color: Colors.black,
+              ),
+            ),
+            Text(
+              'Example: ',
+              style: TextStyle(
+                fontSize: 18,
+                color: Colors.black,
+              ),
+            ),
+            Text(
+              '  an orange',
+              style: TextStyle(
+                fontSize: 18,
+                color: Colors.blue,
+              ),
+            ),
+            Text(
+              '  an ant ',
+              style: TextStyle(
+                fontSize: 18,
+                color: Colors.blue,
+              ),
+            ),
+            Text(
+              '  an umbrella',
+              style: TextStyle(
+                fontSize: 18,
+                color: Colors.blue,
+              ),
+            ),
+            Text(
+              '',
+            ),
+            Text(
+              '(2) ආදාල වචනය h වලින් ආරම්භ වුවද වචනය ශබ්ද කිරීමේදී `h` silent (නිශ්ශබ්දව) වී අදාල ශබ්දය vowel වලින් ඇරබෙන විට,',
+              style: TextStyle(
+                fontSize: 18,
+                color: Colors.black,
+              ),
+            ),
+            Text(
+              'Example: ',
+              style: TextStyle(
+                fontSize: 18,
+                color: Colors.black,
+              ),
+            ),
+            Text(
+              '  An honest man  ',
+              style: TextStyle(
+                fontSize: 18,
+                color: Colors.blue,
+              ),
+            ),
+            Text(
+              '  An hour ',
+              style: TextStyle(
+                fontSize: 18,
+                color: Colors.blue,
+              ),
+            ),
+            Text(
+              '',
+            ),
+            Text(
+              'Special case',
+              style: TextStyle(
+                fontSize: 18,
+                color: Colors.purple,
+              ),
+            ),
+            Text(
+              '',
+            ),
+            Text(
+              '(1) Uncountable noun  එකකට කලින් a , an  යෙදිය නොහැක.',
+              style: TextStyle(
+                fontSize: 18,
+                color: Colors.black,
+              ),
+            ),
+            Text(
+              'Example: ',
+              style: TextStyle(
+                fontSize: 18,
+                color: Colors.black,
+              ),
+            ),
+            Text(
+              '  water  ',
+              style: TextStyle(
+                fontSize: 18,
+                color: Colors.blue,
+              ),
+            ),
+            Text(
+              '  sugar',
+              style: TextStyle(
+                fontSize: 18,
+                color: Colors.blue,
+              ),
+            ),
           ]),
         ),
       ),
